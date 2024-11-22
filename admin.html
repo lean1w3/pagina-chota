@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <header class="text-center">
+        <a id="sombra" href="index.html">La Sombra</a>
+    </header>
+    <div class="container">
+        <main>
+            <h1 id="welcome-message" class="text-center">Bienvenido</h1> <br>
+            <h2>Añadir un escenario</h2>
+            <form>
+                <div class="form-group">
+                    <label for="texto">Historia</label>
+                    <textarea name="texto" id="texto" rows="5" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="opcion">Opciones</label>
+                    <input id="opcion1" type="text" class="form-control" placeholder="Opción 1">
+                    <input id="opcion2" type="text" class="form-control" placeholder="Opción 2">
+                </div>
+                <input type="submit" value="Añadir" class="btn btn-success btn-block">
+            </form>
+            <h2>Eliminar escenario</h2>
+            <form>
+                <fieldset class="form-group">
+                    <legend>Escenarios</legend>
+                    <div class="radio">
+                        <label><input type="radio" name="escenario" value="1"> Escenario1</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="escenario" value="2"> Escenario2</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="escenario" value="3"> Escenario3</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="escenario" value="4"> Escenario4</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="escenario" value="5"> Escenario5</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="escenario" value="6"> Escenario6</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="escenario" value="7"> Escenario7</label>
+                    </div>
+                </fieldset>
+                <input type="submit" value="Eliminar" class="btn btn-danger btn-block">
+            </form>
+            <h2>Modificar escenario</h2>
+            <form>
+                <fieldset class="form-group">
+                    <legend>Escenarios</legend>
+                    <div class="radio">
+                        <label><input type="radio" name="modificar" value="1"> Escenario1</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="modificar" value="2"> Escenario2</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="modificar" value="3"> Escenario3</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="modificar" value="4"> Escenario4</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="modificar" value="5"> Escenario5</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="modificar" value="6"> Escenario6</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="modificar" value="7"> Escenario7</label>
+                    </div>
+                </fieldset>
+                <div class="form-group">
+                    <label for="texto">Historia</label>
+                    <textarea name="texto" id="texto" rows="5" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="opcion">Opciones</label>
+                    <input id="mod-opcion1" type="text" class="form-control" placeholder="Opción 1">
+                    <input id="mod-opcion2" type="text" class="form-control" placeholder="Opción 2">
+                </div>
+                <input type="submit" value="Modificar" class="btn btn-warning btn-block">
+            </form>
+        </main>
+    </div>
+    <footer class="text-center">
+        <p>Leandro Leonel Ramos 46355718</p>
+    </footer>
+    <script src="js/admin.js"></script>
+</body>
+</html>
